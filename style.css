@@ -1,0 +1,47 @@
+.banner {
+  background-image: url('https://wallpapers.com/images/hd/walmart-store-entrance-4yn5cpisadcmcr10.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 89, 255);
+  }
+  
+  .banner-content {
+  text-align: center;
+  }
+  
+  .banner-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  }
+  
+  .banner-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  }
+  
+  .banner-links {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .register-link, .login-link {
+  background-color: #fff;
+  color: #337ab7;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  .register-link:hover, .login-link:hover {
+  background-color: #337ab7;
+  color: #fff;
+  }
+  
+  .register-link {
+  margin-right: 10px;
+  }
